@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crypto Lab — кошельки и торговые площадки · Руслан Пиров</title>
+<meta name="description" content="Разработка крипто-продуктов: некастодиальный кошелёк Neon Wallet, P2P-площадка Verum и защищённый мессенджер Neon Chat.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='26' fill='%2317212e'/%3E%3Ctext x='50' y='70' font-size='56' text-anchor='middle' fill='white' font-family='Poppins,Arial' font-weight='600'%3ER%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+<div id="loader"><div class="loader-top"><span>Ruslan Pirov</span><span>Crypto Lab</span></div><div class="loader-mid"><div class="loader-word" id="loaderWord"></div><div class="loader-pct"><span id="loaderPct">0</span>%</div><div class="loader-bar"><i id="loaderBar"></i></div></div><div class="loader-bottom"><span>Web3 · Wallets · P2P</span><span>Загрузка кейса</span></div></div>
+<div class="grain"></div><div class="cursor-glow"></div><div class="scroll-progress"></div>
+
+<header class="nav"><div class="nav-inner">
+  <a href="../index.html" class="wordmark"><b>Ruslan</b> <i>Pirov</i></a>
+  <nav class="nav-links"><a href="../index.html#projects">Все проекты</a><a href="#wallet">Neon Wallet</a><a href="#verum">Verum</a><a href="#chat">Neon Chat</a></nav>
+  <a href="../index.html#contact" class="btn btn-dark btn-sm nav-cta">Запросить демо</a>
+  <button class="burger" aria-label="Меню"><i></i><i></i></button>
+</div></header>
+<div class="mobile-menu"><a href="../index.html#projects">Все проекты</a><a href="#wallet">Neon Wallet</a><a href="#verum">Verum</a><a href="#chat">Neon Chat</a><a href="../index.html#contact">Запросить демо →</a></div>
+
+<main class="container">
+<section class="phero">
+  <a href="../index.html" class="back">← На главную</a>
+  <span class="chip"><span class="live"></span> Web3 · Кошельки · Торговые площадки · В разработке</span>
+  <h1 class="ptitle">Crypto Lab —<br>от кошельков до<br><em>торговых площадок</em>.</h1>
+  <p class="psub">Направление крипто-продуктов: некастодиальный мультичейн-кошелёк <b>Neon Wallet</b>, P2P-площадка <b>Verum</b> с escrow-защитой и защищённый мессенджер <b>Neon Chat</b>. Единая экосистема: от хранения ключей до торговли.</p>
+  <div class="pmeta">
+    <div><small>Роль</small><b>Founder · Product · Dev</b></div>
+    <div><small>Состав</small><b>Neon Wallet · Verum · Neon Chat</b></div>
+    <div><small>Фокус</small><b>Self-custody · P2P · приватность</b></div>
+    <div><small>Статус</small><b>🟡 В разработке / beta</b></div>
+  </div>
+
+  <!-- NEON WALLET -->
+  <div class="pvisual" id="wallet" style="background:#0b0e16">
+    <div class="pvisual-grid">
+      <div>
+        <span class="sec-tag" style="color:#a1a9b2">01 — Neon Wallet</span>
+        <h3>Ключи остаются только у вас</h3>
+        <p>Некастодиальный кошелёк с мягким свечением: 30+ сетей, seed-фраза, локальное шифрование AES-256. Ключи генерируются на устройстве и никогда не покидают его.</p>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:18px">
+          <span class="mini-stack" style="display:flex"><span style="background:rgba(255,255,255,.1);color:#fff">BTC</span><span style="background:rgba(255,255,255,.1);color:#fff">ETH</span><span style="background:rgba(255,255,255,.1);color:#fff">TON</span><span style="background:rgba(255,255,255,.1);color:#fff">SOL</span><span style="background:rgba(255,255,255,.1);color:#fff">+26</span></span>
+        </div>
+      </div>
+      <div style="background:#fff;border-radius:18px;padding:22px;color:#17212e">
+        <b style="font-family:Poppins;font-weight:600;font-size:16px">💰 $24,842.18 <span style="color:#16a34a;font-size:12.5px">+12.4%</span></b>
+        <div style="display:grid;gap:8px;margin-top:14px">
+          <div style="display:flex;justify-content:space-between;background:#f4f5f7;padding:11px 14px;border-radius:11px;font-size:13.5px"><span>₿ BTC</span><b>0.42</b></div>
+          <div style="display:flex;justify-content:space-between;background:#f4f5f7;padding:11px 14px;border-radius:11px;font-size:13.5px"><span>Ξ ETH</span><b>8.2</b></div>
+          <div style="display:flex;justify-content:space-between;background:#17212e;color:#fff;padding:11px 14px;border-radius:11px;font-size:13.5px"><span>◈ TON</span><b>1 240</b></div>
+        </div>
+        <div style="display:flex;gap:8px;margin-top:12px;font-size:12.5px;font-weight:800">
+          <div style="flex:1;background:#17212e;color:#fff;text-align:center;padding:11px;border-radius:999px">Send</div>
+          <div style="flex:1;background:#eef0f3;text-align:center;padding:11px;border-radius:999px">Receive</div>
+          <div style="flex:1;background:#eef0f3;text-align:center;padding:11px;border-radius:999px">Swap</div>
+        </div>
+        <div style="font-size:11.5px;color:#606b78;text-align:center;margin-top:12px">Encrypted locally · AES-256 · No tracking</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- VERUM -->
+  <div class="pvisual" id="verum" style="background:#0b0e14">
+    <div class="pvisual-grid">
+      <div>
+        <span class="sec-tag" style="color:#a1a9b2">02 — Verum</span>
+        <h3>P2P-площадка нового поколения</h3>
+        <p>Покупка и продажа USDT, BTC, ETH и USDC напрямую у проверенных трейдеров: фиксация цены, escrow-защита и 70+ способов оплаты. Среднее время сделки — около 4 минут.</p>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:18px">
+          <span style="background:rgba(139,92,246,.2);border:1px solid rgba(139,92,246,.4);border-radius:999px;padding:7px 14px;font-size:12px;font-weight:800">Escrow 2.0</span>
+          <span style="background:rgba(255,255,255,.08);border-radius:999px;padding:7px 14px;font-size:12px;font-weight:800">Без KYC на старте</span>
+          <span style="background:rgba(255,255,255,.08);border-radius:999px;padding:7px 14px;font-size:12px;font-weight:800">RUB · USD · EUR · TRY · KZT</span>
+        </div>
+      </div>
+      <div style="background:#121923;border:1px solid rgba(255,255,255,.12);border-radius:18px;padding:22px;color:#fff">
+        <div style="display:flex;gap:8px;margin-bottom:14px;font-size:13px">
+          <span style="background:#fff;color:#111;padding:7px 18px;border-radius:999px;font-weight:800">Купить</span>
+          <span style="padding:7px 18px;opacity:.6">Продать</span>
+          <span style="margin-left:auto;opacity:.6;font-size:12px">USDT/RUB <b data-ticker style="color:#4ade80">97,24 ₽</b></span>
+        </div>
+        <div style="font-size:12px;opacity:.6">ОТДАЁТЕ · баланс 142 500 ₽</div>
+        <div style="font-family:Poppins;font-weight:600;font-size:28px">50 000</div>
+        <div style="display:flex;gap:6px;margin:10px 0">
+          <span style="flex:1;background:rgba(255,255,255,.08);text-align:center;padding:8px;border-radius:999px;font-size:12px">10k</span>
+          <span style="flex:1;background:#fff;color:#111;text-align:center;padding:8px;border-radius:999px;font-size:12px;font-weight:800">50k</span>
+          <span style="flex:1;background:rgba(255,255,255,.08);text-align:center;padding:8px;border-radius:999px;font-size:12px">100k</span>
+        </div>
+        <div style="background:linear-gradient(135deg,rgba(139,92,246,.28),rgba(34,211,238,.28));border-radius:14px;padding:14px;margin-top:12px">
+          <div style="font-size:12px;opacity:.7">ПОЛУЧАЕТЕ · лучшая цена</div>
+          <div style="font-family:Poppins;font-weight:600;font-size:24px">514,19 USDT</div>
+          <div style="font-size:12px;opacity:.6">Спред 0.12%</div>
+        </div>
+        <div style="background:linear-gradient(90deg,#8b5cf6,#7c3aed);text-align:center;padding:13px;border-radius:999px;font-weight:800;margin-top:14px">Купить USDT</div>
+        <div style="font-size:11.5px;opacity:.6;text-align:center;margin-top:10px">✓ Escrow защита · ✓ 0% комиссия · ✓ ~4 мин</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- NEON CHAT -->
+  <div class="pvisual" id="chat" style="background:#070b12">
+    <div class="pvisual-grid">
+      <div>
+        <span class="sec-tag" style="color:#a1a9b2">03 — Neon Chat</span>
+        <h3>Скорость Telegram, атмосфера неона</h3>
+        <p>Защищённый мессенджер с неоновым кибер-дизайном: мгновенные сообщения, сквозное шифрование, каналы и боты. Регистрация занимает секунды.</p>
+        <ul style="margin-top:18px;display:grid;gap:10px">
+          <li>⚡ Realtime-ядро: доставка сообщений за миллисекунды</li>
+          <li>🛡️ E2E-шифрование личных диалогов, исчезающие сообщения</li>
+          <li>🤖 Боты и каналы, десктоп и PWA</li>
+          <li>👛 Планы: переводы крипты прямо в чате — мост с Neon Wallet</li>
+        </ul>
+      </div>
+      <div style="background:#0d1420;border:1px solid rgba(34,211,238,.4);box-shadow:0 0 60px rgba(34,211,238,.22);border-radius:20px;padding:26px;max-width:340px;margin:0 auto;width:100%;text-align:center">
+        <div style="font-size:26px">🛡️</div>
+        <div style="font-family:Poppins;font-weight:600;letter-spacing:.06em;color:#22d3ee;margin:8px 0">NEON CHAT</div>
+        <div style="font-size:12.5px;opacity:.6;margin-bottom:14px">Регистрация</div>
+        <div style="background:rgba(255,255,255,.06);border-radius:10px;padding:12px;font-size:13px;text-align:left;opacity:.7;margin-bottom:10px">Никнейм</div>
+        <div style="background:rgba(255,255,255,.06);border-radius:10px;padding:12px;font-size:13px;text-align:left;opacity:.7;margin-bottom:10px">Email</div>
+        <div style="border:1px solid #22d3ee;border-radius:10px;padding:12px;color:#22d3ee;font-weight:800;font-size:13px">ЗАРЕГИСТРИРОВАТЬСЯ</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgrid">
+    <div class="prose">
+      <h3>Технологии направления</h3>
+      <ul>
+        <li><b>Кошелёк:</b> мультичейн-адресация, BIP-39, AES-256-GCM, биометрия</li>
+        <li><b>P2P:</b> смарт-escrow, антифрод, матчинг офферов, платёжные методы</li>
+        <li><b>Мессенджер:</b> WebSocket-кластер, X25519 + AES-GCM, Redis pub/sub</li>
+        <li><b>Инфраструктура:</b> Postgres, S3 для медиа, отказ от трекеров и аналитики</li>
+      </ul>
+    </div>
+    <div class="prose">
+      <h3>Принципы</h3>
+      <div class="feat"><b>🔑 Self-custody</b><span>Пользователь владеет ключами, а не платформа.</span></div>
+      <div class="feat"><b>🔒 Безопасность по умолчанию</b><span>Шифрование хранилища, защита от dust-атак, проверка адресов.</span></div>
+      <div class="feat"><b>🧩 Единая экосистема</b><span>Купил на Verum — хранишь в Neon Wallet — обсуждаешь в Neon Chat.</span></div>
+    </div>
+  </div>
+
+  <div class="next-nav">
+    <a href="mirea.html" class="next-card"><small>Следующий проект →</small><h3>🧴 Mirea</h3></a>
+    <a href="../index.html#contact" class="next-card light"><small>Демо, аудит или партнёрство</small><h3>Написать →</h3></a>
+  </div>
+</section>
+</main>
+
+<footer class="footer"><div class="container">
+  <div class="foot-bottom" style="margin-top:0;border-top:none;padding-top:0">
+    <span>© <span data-year></span> Руслан Пиров · Crypto Lab</span>
+    <span><a href="../index.html">← Все проекты</a></span>
+  </div>
+</div></footer>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

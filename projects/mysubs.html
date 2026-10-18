@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MySubs — контроль подписок · Руслан Пиров</title>
+<meta name="description" content="MySubs — сервис контроля подписок: все списания в одном месте, напоминания о продлении и аналитика ежемесячных расходов.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='26' fill='%2317212e'/%3E%3Ctext x='50' y='70' font-size='56' text-anchor='middle' fill='white' font-family='Poppins,Arial' font-weight='600'%3ER%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+<div id="loader"><div class="loader-top"><span>Ruslan Pirov</span><span>MySubs</span></div><div class="loader-mid"><div class="loader-word" id="loaderWord"></div><div class="loader-pct"><span id="loaderPct">0</span>%</div><div class="loader-bar"><i id="loaderBar"></i></div></div><div class="loader-bottom"><span>Utility service</span><span>Загрузка кейса</span></div></div>
+<div class="grain"></div><div class="cursor-glow"></div><div class="scroll-progress"></div>
+
+<header class="nav"><div class="nav-inner">
+  <a href="../index.html" class="wordmark"><b>Ruslan</b> <i>Pirov</i></a>
+  <nav class="nav-links"><a href="../index.html#projects">Все проекты</a><a href="#about">О сервисе</a><a href="#features">Возможности</a><a href="#contact">Контакты</a></nav>
+  <a href="https://my-subs.ru" target="_blank" class="btn btn-dark btn-sm nav-cta">my-subs.ru
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M7 17L17 7M17 7H9M17 7v8"/></svg></a>
+  <button class="burger" aria-label="Меню"><i></i><i></i></button>
+</div></header>
+<div class="mobile-menu"><a href="../index.html#projects">Все проекты</a><a href="#about">О сервисе</a><a href="#features">Возможности</a><a href="#contact">Контакты</a><a href="https://my-subs.ru" target="_blank">my-subs.ru →</a></div>
+
+<main class="container">
+<section class="phero">
+  <a href="../index.html" class="back">← На главную</a>
+  <span class="chip"><span class="live"></span> Utility · SaaS · Действующий сервис</span>
+  <h1 class="ptitle">MySubs —<br>все подписки<br><em>под контролем</em>.</h1>
+  <p class="psub">Сервис контроля подписок: собрать в одном месте все регулярные списания, видеть, сколько уходит каждый месяц, и вовремя получать напоминания о продлении — чтобы не платить за то, чем не пользуешься.</p>
+  <div class="pmeta">
+    <div><small>Роль</small><b>Founder · Product · Dev</b></div>
+    <div><small>Тип</small><b>Personal finance utility</b></div>
+    <div><small>Сайт</small><b><a href="https://my-subs.ru" target="_blank">my-subs.ru</a></b></div>
+    <div><small>Статус</small><b>🟢 Работает</b></div>
+  </div>
+
+  <div class="pvisual" style="background:#101828">
+    <div class="pvisual-grid">
+      <div>
+        <span class="sec-tag" style="color:#a1a9b2">Личный кабинет</span>
+        <h3>Сколько вы реально тратите на подписки</h3>
+        <p>Кино, музыка, облако, приложения, связь — всё в одном списке с датами списаний. Сервис считает месячную и годовую сумму и предупреждает о продлениях заранее.</p>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:20px">
+          <a href="https://my-subs.ru" class="btn btn-light btn-sm">Открыть сервис
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M7 17L17 7M17 7H9M17 7v8"/></svg></a>
+        </div>
+      </div>
+      <div style="background:#fff;border-radius:18px;padding:22px;color:#17212e">
+        <div style="display:flex;justify-content:space-between;align-items:baseline">
+          <div><div style="font-size:11px;font-weight:800;letter-spacing:.12em;color:#606b78">В МЕСЯЦ</div><div style="font-family:Poppins;font-weight:600;font-size:30px;letter-spacing:-.03em">₽ 4 870</div></div>
+          <span style="background:#eef0f3;border-radius:999px;padding:6px 12px;font-size:11.5px;font-weight:800">в год ₽ 58 440</span>
+        </div>
+        <div style="display:grid;gap:8px;margin-top:16px">
+          <div style="display:flex;justify-content:space-between;align-items:center;background:#f4f5f7;padding:12px 14px;border-radius:12px"><span style="font-size:13.5px">🎬 Кино · до 12 числа</span><b style="font-size:13.5px">₽ 1 190</b></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;background:#f4f5f7;padding:12px 14px;border-radius:12px"><span style="font-size:13.5px">🎵 Музыка · до 3 числа</span><b style="font-size:13.5px">₽ 349</b></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;background:#17212e;color:#fff;padding:12px 14px;border-radius:12px"><span style="font-size:13.5px">☁️ Облако · продление завтра</span><b style="font-size:13.5px">₽ 990</b></div>
+        </div>
+        <div style="margin-top:14px;background:#fff3cd;border:1px solid #ffe08a;border-radius:12px;padding:12px 14px;font-size:12.5px">🔔 Напоминание: 3 подписки продлятся на этой неделе</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="kpis">
+    <div class="kpi"><b>1 место</b><span>для всех подписок</span></div>
+    <div class="kpi"><b>Напоминания</b><span>до списания денег</span></div>
+    <div class="kpi"><b>Аналитика</b><span>месяц и год в цифрах</span></div>
+  </div>
+
+  <div class="pgrid" id="about">
+    <div class="prose">
+      <h3>Какую проблему решает</h3>
+      <p>Подписки списываются незаметно: небольшие суммы каждый месяц, которые в сумме превращаются в серьёзные траты. Мы часто забываем, что оформили полгода назад.</p>
+      <ul>
+        <li>Вся картина подписок в одном месте</li>
+        <li>Понятно, сколько уходит в месяц и в год</li>
+        <li>Напоминания до продления — можно успеть отказаться</li>
+        <li>Общий контроль семейных расходов на сервисы</li>
+      </ul>
+    </div>
+    <div class="prose" id="features">
+      <h3>Возможности</h3>
+      <div class="feat"><b>🗂️ Каталог подписок</b><span>Название, стоимость, дата списания и период оплаты.</span></div>
+      <div class="feat"><b>🔔 Напоминания</b><span>Уведомления о скором продлении и окончании пробных периодов.</span></div>
+      <div class="feat"><b>📊 Аналитика</b><span>Сумма расходов по месяцам и категориям: кино, музыка, софт, связь.</span></div>
+      <div class="feat"><b>🧮 Планирование бюджета</b><span>Понимание обязательных регулярных платежей заранее.</span></div>
+    </div>
+  </div>
+
+  <div class="next-nav">
+    <a href="fc-derbent.html" class="next-card"><small>Следующий проект →</small><h3>⚽ ФК Дербент</h3></a>
+    <a href="https://my-subs.ru" target="_blank" class="next-card light"><small>Попробовать</small><h3>Открыть my-subs.ru →</h3></a>
+  </div>
+</section>
+</main>
+
+<footer class="footer"><div class="container">
+  <div class="foot-bottom" style="margin-top:0;border-top:none;padding-top:0">
+    <span>© <span data-year></span> Руслан Пиров · MySubs</span>
+    <span><a href="../index.html">← Все проекты</a></span>
+  </div>
+</div></footer>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
